@@ -155,3 +155,9 @@
   opacity: 0;
   transform: translateY(-20px);
 }
+@layer base {
+  :root {
+    /* your theme’s border color (you can tweak these HSL values later) */
+    --border: 214 14.3% 30.6%;
+  }
+}
